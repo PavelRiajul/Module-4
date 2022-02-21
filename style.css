@@ -1,0 +1,40 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+section{
+    display: flex;
+    
+}
+.pavel{
+    width: 50%;
+    margin-left: 190px;
+    margin-right: 190px;
+margin-bottom:150px;
+    
+}
+.fahim{
+    width: 50%;
+margin-right: 100px;
+    
+    
+}
+.fahim img{
+    width: 100%;
+    
+    
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.banner{
+    background-image:url(./images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
