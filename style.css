@@ -2,46 +2,67 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 h1{
-    font-size: 50px;
-}
-section{
-    display: flex;
-    margin-bottom: 100px;
     
+    font-size: 40px;
+}
+
+.banner{
+    display: flex;
+    margin-bottom: 200px;
+    background-image:url(./images/top-banner.png);
+    background-repeat: no-repeat;
+  
 }
 .pavel{
     width: 50%;
     margin-left: 190px;
     margin-right: 190px;
-margin-bottom:150px;
-    
 }
 .fahim{
     width: 50%;
-margin-right: 100px;
-    
-    
 }
 .fahim img{
-    width: 100%;
-    
-    
+    width: 80%;
 }
 .button{
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     padding: 10px 40px;
     border-radius: 10px;
-    font-weight: bold;
 }
-.banner{
-    background-image:url(./images/top-banner.png);
+.morning{
+    display: flex;
+    background-image: url(./images/exp-bg.png);
     background-repeat: no-repeat;
 }
-.dream{
-    background-image:url(./images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
+.saad{
+    width: 50%;
+    margin-left: 150px;
+    margin-right: 200px;
+    padding-left: 40px;
+    border-left: 7px solid orangered;
+    box-shadow: 10px 10px 40px gray;
+    margin-bottom: 100px;
 
+    
+  
+    
 }
+.sabbir{
+    width: 50%;
+    margin-left: px;
+    margin-right: 200px;
+    padding-left: 40px;
+    background-position: left;
+    border-left: 7px solid #6bb2cf;
 
+    box-shadow: 10px 10px 40px gray;
+    margin-bottom: 100px;
+}
+.night{
+    display: inline-block;
+    position: relative;
+    left: 900px;
+    bottom: 300px;
+    
+}
